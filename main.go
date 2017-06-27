@@ -4,21 +4,22 @@ import "fmt"
 
 const (
 
-	// Create constant using 'iota' and start from 1 (iota starts from zero)
-	constant1 = iota + 1
-
-	// Create another. It will naturally consume from iota.
-	constant2
+	// Create constants using 'iota' and start from 1 (iota starts from zero)
+	GET = iota + 1
+	SET
+	DEL
 )
 
 func main() {
 	// Things check out as expected
-	fmt.Println("Constant 1: ", constant1)
-	fmt.Println("Constant 2: ", constant2)
+	fmt.Println("GET: ", GET)
+	fmt.Println("SET: ", SET)
+	fmt.Println("DEL: ", DEL)
 
 	// Output
 	// -------
-	// Constant 1:  2
-	// Constant 2:  3
+	// GET:  1
+	// SET:  2
+	// DEL:  3
 	//
 }
