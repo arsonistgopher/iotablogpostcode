@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
+// This block is just for the JSON-API
 const (
-	// Const block for JSON-API
 	GET = iota + 1
 	SET
 	DEL
 )
 
+// This block is for other consts not relying on iota
 const (
-	// Other consts
 	ALARM_LEVEL = 3
 )
 
@@ -23,9 +23,9 @@ func main() {
 
 	// Output
 	// -------
-	// GET:  2
-	// SET:  3
-	// DEL:  4
+	// GET:  1
+	// SET:  2
+	// DEL:  3
 	// ALARM_LEVEL:  3
 	//
 }
