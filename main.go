@@ -3,13 +3,15 @@ package main
 import "fmt"
 
 const (
-	// Other consts
-	ALARM_LEVEL = 3
-
 	// Const block for JSON-API
 	GET = iota + 1
 	SET
 	DEL
+)
+
+const (
+	// Other consts
+	ALARM_LEVEL = 3
 )
 
 func main() {
