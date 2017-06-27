@@ -3,11 +3,10 @@ package main
 import "fmt"
 
 const (
-
-	// Set alarm consts
+	// Other consts
 	ALARM_LEVEL = 3
 
-	// Create constants using 'iota' and start from 1 (iota starts from zero)
+	// Const block for JSON-API
 	GET = iota + 1
 	SET
 	DEL
@@ -25,6 +24,6 @@ func main() {
 	// GET:  2
 	// SET:  3
 	// DEL:  4
-	//ALARM_LEVEL:  3
+	// ALARM_LEVEL:  3
 	//
 }
